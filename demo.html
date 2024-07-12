@@ -1,0 +1,46 @@
+<!--
+ * @LastEditTime: 2023-11-02 14:56:44
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <title>数据中台</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <!-- cdn插件加载失败--后期更换 -->
+  <script>
+      function main() {
+            setTimeout(function(){
+              console.log(' setTimeoutl');
+          }, ...[1,2,3]);
+        async function fn1 () {
+        console.log('asyncl start');
+        await fn2();
+            console.log('asyncl end');
+          }
+        async function fn2() {
+          console.log('async2');
+        }
+        fn1();
+        console.log('start');
+        setTimeout(function() {console.log('setTimeout2');},0);
+        new Promise(function(resolve){
+          console.log('promisel');
+          resolve();
+          console.log('promise2');
+        }).then(function() {
+          console. log('promise3');
+        });
+        console.log('end');
+      }
+      main();
+  </script>
+</html>

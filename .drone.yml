@@ -1,0 +1,58 @@
+kind: pipeline
+type: docker
+name: build
+
+steps:
+  - name: build
+    image: node:16.13.2
+    volumes:
+      - name: node_modules
+        path: /drone/src/node_modules
+    commands:
+      - npm config set registry https://registry.npm.taobao.org
+      - npm install
+      - npm run build 
+      - ls
+
+  - name: docker
+    image: plugins/docker
+    depends_on: [build]
+    settings:
+      mirror: https://8sbh7sdd.mirror.aliyuncs.com
+      dockerfile: Dockerfile
+      insecure: true
+      debug: true
+      registry: 192.168.1.131:20180
+      repo: 192.168.1.131:20180/data-middle-platform/front
+      username: admin
+      password: yihang
+      auto_tag: true
+
+volumes:
+- name: node_modules
+  host:
+    path: /app/data/dmp/front/node/modules
+
+---
+kind: pipeline
+type: docker
+name: deploy
+depends_on: [build]
+
+clone:
+  disable: true 
+
+steps:
+  - name: deploy-project
+    image: appleboy/drone-ssh
+    pull: if-not-exists     
+    settings:
+      host: 192.168.1.131
+      user: yhzn
+      password: yihang2015!
+      port: 22
+      command_timeout: 2m
+      script:
+        - echo ====开始部署=======
+        - docker pull 192.168.1.131:20180/data-middle-platform/front:latest
+        - echo ====部署成功=======

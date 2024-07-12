@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Endpoints
+metadata:
+  namespace: data-middle-platform
+  name: cube-svc
+subsets:
+  - addresses:
+      - ip: 192.168.1.48
+    ports:
+      - port: 80
+        name: http

@@ -1,0 +1,3561 @@
+{
+  "use_tool": "tool1",
+  "tool0": {
+    "objects": [
+      {
+        "category": "轿车",
+        "tags": [
+          "警用"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "orange",
+              "others",
+              "red",
+              "white",
+              "Ignored"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "越野车SUV",
+        "tags": [
+          "警用"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "不确定小型车",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "皮卡",
+        "tags": [
+          "警用"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "小巴",
+        "tags": [
+          "警用"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "中巴",
+        "tags": [
+          "警用",
+          "救护",
+          "校车"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "大巴",
+        "tags": [
+          "公交",
+          "校车",
+          "两节",
+          "两层"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "货车（4轮）",
+        "tags": [
+          "散水",
+          "搅拌",
+          "罐车",
+          "消防"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "卡车（>4轮）",
+        "tags": [
+          "散水",
+          "搅拌",
+          "罐车",
+          "消防"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "装甲车（>4轮）",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "不确定中大型车",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "三轮车",
+        "tags": [
+          "人力"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "摩托车（有人）",
+        "tags": [
+          "警用"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "摩托车（无人）",
+        "tags": [
+          "警用"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "自行车（有人）",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "自行车（无人）",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "行人",
+        "tags": [
+          "儿童",
+          "打伞"
+        ],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "障碍物-锥桶",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "地锁（竖起）",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "地锁（落下）",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "障碍物-轮胎",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "障碍物-箱子",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "障碍物-袋子",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "障碍物-大石头",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "障碍物-柱子",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "动物",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "事故车辆",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "其他障碍物",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ignored",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "水马",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "水泥隔离墩",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "施工牌",
+        "tags": [],
+        "shape_types": [
+          "Box2d",
+          "Box3d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "三角警示架",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "防撞桶",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "防撞球",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "防撞柱粗",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "防撞柱中",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "防撞柱细",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "防撞柱连",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "地下停车场方立柱",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "地下停车场圆立柱",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "垃圾桶大",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "LaneType",
+            "name": "所在车道",
+            "options": [
+              "左",
+              "压左",
+              "中",
+              "压右",
+              "右",
+              "其他",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "BreakLight",
+            "name": "刹车灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "LeftTurnSignal",
+            "name": "左转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "RightTurnSignal",
+            "name": "右转灯状态",
+            "options": [
+              "亮",
+              "灭",
+              "无法判断",
+              "Ignored"
+            ]
+          },
+          {
+            "key": "color",
+            "name": "颜色",
+            "options": [
+              "black",
+              "blue",
+              "brown",
+              "cannot_tell",
+              "green",
+              "grey",
+              "Ignored",
+              "orange",
+              "others",
+              "red",
+              "white"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tool1": {
+    "objects": [
+      {
+        "category": "杆（竖着的）",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      },
+      {
+        "category": "牌子（交通标志）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "交通信号灯（以组为单位）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "交通标志",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      },
+      {
+        "category": "红绿灯",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      },
+      {
+        "category": "人脸",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      },
+      {
+        "category": "车牌",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      },
+      {
+        "category": "龙门架",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "收费亭",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      },
+      {
+        "category": "收费档杆",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      },
+      {
+        "category": "单元门（室外）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "单元号（室外墙上）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "楼栋号（室外墙上）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "停车场出入口（室外）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "停车场出入口（室内）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "电梯口（室内）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "区位、楼层号（室内墙上）",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "地面箭头",
+        "tags": [
+          "前进",
+          "左转",
+          "右转",
+          "调头"
+        ],
+        "shape_types": [
+          "Ray"
+        ]
+      },
+      {
+        "category": "停止线（实）",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      },
+      {
+        "category": "停止线（虚）",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      },
+      {
+        "category": "斑马线",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "地面限速标识",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "人行横道菱形预告",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      },
+      {
+        "category": "倒三角减速标识",
+        "tags": [],
+        "shape_types": [
+          "Poly3"
+        ]
+      },
+      {
+        "category": "车位、号、后档杆",
+        "tags": [
+          "可用",
+          "点1-遮挡",
+          "点2-遮挡",
+          "点3-遮挡",
+          "点4-遮挡",
+          "线1-遮挡",
+          "线2-遮挡",
+          "线3-遮挡",
+          "线4-遮挡"
+        ],
+        "shape_types": [
+          "Poly4-PK",
+          "Poly4",
+          "Line"
+        ]
+      },
+      {
+        "category": "井盖",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      },
+      {
+        "category": "减速带",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ]
+      }
+    ]
+  },
+  "tool12": {
+    "objects": [
+      {
+        "category": "交通标志",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "标签",
+            "name": "标签",
+            "options": [],
+            "operation_type": "input"
+          }
+        ]
+      },
+      {
+        "category": "红绿灯",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "位置",
+            "name": "位置",
+            "options": [
+              "高",
+              "低"
+            ]
+          },
+          {
+            "key": "关联性",
+            "name": "关联性",
+            "options": [
+              "关联",
+              "不关联",
+              "不确定"
+            ]
+          },
+          {
+            "key": "安装方向",
+            "name": "安装方向",
+            "options": [
+              "水平",
+              "垂直"
+            ]
+          },
+          {
+            "key": "形状",
+            "name": "形状",
+            "options": [
+              "圆圈",
+              "直行箭头",
+              "左转箭头",
+              "直行左转箭头",
+              "右转箭头",
+              "向下箭头",
+              "行人",
+              "自行车",
+              "数字",
+              "掉头",
+              "不确定"
+            ]
+          },
+          {
+            "key": "灯数量",
+            "name": "灯数量",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "key": "状态",
+            "name": "状态",
+            "options": [
+              "关",
+              "红",
+              "黄",
+              "绿"
+            ]
+          },
+          {
+            "key": "视角",
+            "name": "视角",
+            "options": [
+              "前",
+              "后",
+              "左",
+              "右",
+              "不确定"
+            ]
+          },
+          {
+            "key": "遮挡",
+            "name": "遮挡",
+            "options": [
+              "遮挡",
+              "不遮挡"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "地面箭头",
+        "tags": [
+          "前进",
+          "左转",
+          "右转",
+          "调头",
+          "左汇入",
+          "右汇入"
+        ],
+        "shape_types": [
+          "Ray"
+        ]
+      },
+      {
+        "category": "停止线（实）",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      },
+      {
+        "category": "停止线（虚）",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      },
+      {
+        "category": "减速带",
+        "tags": [],
+        "shape_types": [
+          "Line"
+        ]
+      }
+    ]
+  },
+  "tool2": {
+    "objects": [
+      {
+        "category": "角点",
+        "tags": [
+          "I型",
+          "TL型",
+          "Y型",
+          "U型"
+        ],
+        "shape_types": [
+          "Ray"
+        ],
+        "attribute": []
+      },
+      {
+        "category": "标号",
+        "tags": [],
+        "shape_types": [
+          "Poly4"
+        ],
+        "attribute": [
+          {
+            "key": "标签",
+            "name": "标签",
+            "options": [],
+            "operation_type": "input"
+          }
+        ]
+      }
+    ],
+    "groups": {
+      "category": "车位",
+      "setting_keys": [
+        {
+          "name": "类别",
+          "type": "select"
+        }, {
+          "name": "占用",
+          "type": "radio"
+        }
+      ],
+      "setting_values": [
+        [
+          "横",
+          "竖",
+          "斜"
+        ],
+        [
+          "未占用",
+          "占用"
+        ]
+      ]
+    }
+  },
+  "tool3": {
+    "objects": [
+      {
+        "category": "人脸",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ],
+        "attribute": [
+          {
+            "key": "方向",
+            "name": "方向",
+            "options": [
+              "前",
+              "后",
+              "左",
+              "右"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "车牌",
+        "tags": [],
+        "shape_types": [
+          "Box2d"
+        ]
+      }
+    ]
+  },
+  "laneline": {
+    "objects": [
+      {
+        "category": "车道线",
+        "tags": [],
+        "shape_types": [
+          "Curve"
+        ],
+        "type": [
+          {
+            "name": "路边",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "路沿",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "栅栏",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "实线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "虚线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "可变导向车道线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "纵向减速线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "隔离线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "空类型",
+            "opacity": 0.4,
+            "pointColor": "#E66464"
+          },
+          {
+            "name": "模糊线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "粗类型",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "旧线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "粗实线",
+            "opacity": 1,
+            "pointColor": "#0000FF"
+          },
+          {
+            "name": "虚线-虚类型",
+            "opacity": 1,
+            "pointColor": "#6464E6"
+          },
+          {
+            "name": "纵向减速线-虚线",
+            "opacity": 1,
+            "pointColor": "#64E664"
+          }
+        ]
+      }
+    ],
+    "groups": {
+      "category": "道路",
+      "setting_keys": [
+        {
+          "name": "类别",
+          "type": "select"
+        }
+      ],
+      "setting_values": [
+        [
+          "双线",
+          "三线",
+          "四线",
+          "V分叉-正",
+          "V分叉-倒",
+          "Y分叉-正",
+          "Y分叉-倒",
+          "分离型分叉",
+          "左路沿",
+          "右路沿"
+        ]
+      ]
+    }
+  },
+  "typeLine": {
+    "objects": [
+      {
+        "category": "线段分割",
+        "tags": [],
+        "shape_types": [
+          "typeLine"
+        ],
+        "types": [
+          "低路沿",
+          "高路沿",
+          "不可运动物体",
+          "可运动物体",
+          "穿越类型",
+          "图像边界",
+          "看不清"
+        ],
+        "typesList": [
+          {
+            "type": "低路沿",
+            "color": "#C640FF"
+          },
+          {
+            "type": "高路沿",
+            "color": "red"
+          },
+          {
+            "type": "不可运动物体",
+            "color": "#40FFEC"
+          },
+          {
+            "type": "可运动物体",
+            "color": "#4069FF"
+          },
+          {
+            "type": "穿越类型",
+            "color": "green"
+          },
+          {
+            "type": "图像边界",
+            "color": "yellow"
+          },
+          {
+            "type": "看不清",
+            "color": "pink"
+          }
+        ]
+      }
+    ]
+  }
+}
